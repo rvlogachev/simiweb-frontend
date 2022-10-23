@@ -1,0 +1,43 @@
+.color-NN-button:hover {
+    color: black;
+    background: #0393ff;
+    tansition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+}
+
+.upload-button-default {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: -1rem;
+    margin-right: 1rem;
+    padding-top: 0.95rem;
+    padding-bottom: 0.95rem;
+    color: white;
+}
+.upload-button-default:hover {
+    color: black;
+    background: #f6fafc;
+    tansition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+}
+
+.delete-button-size {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    padding-right: 1.5rem;a
+padding-left: 1.5rem;
+    border-radius: 0.25rem;
+}
+.delete-button-color {
+    background-color: #c72121;
+    border-color: #c72121;
+}
+.delete-button-color:hover {
+    color: black;
+    background: #ff444d;
+    tansition: all .2s linear;
+    -webkit-transition: all .2s linear;
+    -moz-transition: all .2s linear;
+}
