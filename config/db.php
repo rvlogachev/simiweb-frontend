@@ -3,7 +3,7 @@ define('TIMEZONE', 'Europe/Moscow');
 date_default_timezone_set(TIMEZONE);
 return [
     'class' => 'yii\db\Connection',
-    'dsn' => 'pgsql:host=192.168.0.5;port=5432;dbname=simiweb',
+    'dsn' => 'pgsql:host=192.168.0.5;port=5432;dbname=simiweb_frontend',
     'username' => 'postgres',
     'password' => 'guest',
     'charset' => 'utf8',

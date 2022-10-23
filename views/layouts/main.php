@@ -15,7 +15,7 @@ AppAsset::register($this);
 <head>
     <base href="<?= Url::base(true) ?>">
     <meta charset="<?= Yii::$app->charset ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
     <title><?= Html::encode($this->title) ?></title>
     <?php $this->head() ?>
     <script type="text/javascript">
@@ -633,9 +633,10 @@ AppAsset::register($this);
         });
     </script>
 </head>
-<body class="font-sans leading-none text-gray-700 antialiased">
+<body class="ct hv bg-white ck cw">
 <?php $this->beginBody() ?>
 <?= $content ?>
+
 <?php $this->endBody() ?>
 </body>
 </html>
