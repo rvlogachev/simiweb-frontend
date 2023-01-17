@@ -31,55 +31,61 @@
             <!-- Desktop menu links -->
             <ul class="ii sj ui ue un">
               <li>
-                <a class="c_ pm fh ya fp ii un hq pn po" href="pricing.html">Pricing</a>
+                <a class="c_ pm fh ya fp ii un hq pn po" href="/pricing">Pricing</a>
               </li>
               <li>
-                <a class="c_ pm fh ya fp ii un hq pn po" href="about.html">About us</a>
+                <a class="c_ pm fh ya fp ii un hq pn po" href="/about">About us</a>
               </li>
               <li>
-                <a class="c_ pm fh ya fp ii un hq pn po" href="tutorials.html">Tutorials</a>
+                <a class="c_ pm fh ya fp ii un hq pn po" href="/courses">Courses</a>
               </li>
               <li>
-                <a class="c_ pm fh ya fp ii un hq pn po" href="blog.html">Blog</a>
+                <a class="c_ pm fh ya fp ii un hq pn po" href="/tutorials">Tutorials</a>
+              </li>
+              <li>
+                <a class="c_ pm fh ya fp ii un hq pn po" href="/blog">Blog</a>
+              </li>
+              <li>
+                <a class="cc cn c_ pm ii fp fc cg" href="/support">Support</a>
               </li>
               <!-- 1st level: hover -->
-              <li class="j" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">
-                <a class="c_ pm fh ya fp ii un hq pn po" href="#0" aria-haspopup="true"
-                   :aria-expanded="open" @focus="open = true" @focusout="open = false" @click.prevent="">
-                  Resources
-                  <svg class="iz il ft cj oy nd s_" viewBox="0 0 12 12"
-                       xmlns="http://www.w3.org/2000/svg">
-                    <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z"></path>
-                  </svg>
-                </a>
-                <!-- 2nd level: hover -->
-                <ul class="sz _ te tt se bg-white fp nv uy shadow-lg" x-show="open"
-                    x-transition:enter="hq pu pr om" x-transition:enter-start="hg ot"
-                    x-transition:enter-end="hy on" x-transition:leave="hq pu pr"
-                    x-transition:leave-start="hy" x-transition:leave-end="hg" x-cloak="">
-                  <li>
-                    <a class="cc cn c_ pm ii fp fc cg" href="documentation.html" @focus="open = true"
-                       @focusout="open = false">Documentation</a>
-                  </li>
-                  <li>
-                    <a class="cc cn c_ pm ii fp fc cg" href="support.html" @focus="open = true"
-                       @focusout="open = false">Support center</a>
-                  </li>
-                  <li>
-                    <a class="cc cn c_ pm ii fp fc cg" href="404.html" @focus="open = true"
-                       @focusout="open = false">404</a>
-                  </li>
-                </ul>
-              </li>
+<!--              <li class="j" x-data="{ open: false }" @mouseenter="open = true" @mouseleave="open = false">-->
+<!--                <a class="c_ pm fh ya fp ii un hq pn po" href="#0" aria-haspopup="true"-->
+<!--                   :aria-expanded="open" @focus="open = true" @focusout="open = false" @click.prevent="">-->
+<!--                  Resources-->
+<!--                  <svg class="iz il ft cj oy nd s_" viewBox="0 0 12 12"-->
+<!--                       xmlns="http://www.w3.org/2000/svg">-->
+<!--                    <path d="M10.28 4.305L5.989 8.598 1.695 4.305A1 1 0 00.28 5.72l5 5a1 1 0 001.414 0l5-5a1 1 0 10-1.414-1.414z"></path>-->
+<!--                  </svg>-->
+<!--                </a>-->
+<!--                &lt;!&ndash; 2nd level: hover &ndash;&gt;-->
+<!--                <ul class="sz _ te tt se bg-white fp nv uy shadow-lg" x-show="open"-->
+<!--                    x-transition:enter="hq pu pr om" x-transition:enter-start="hg ot"-->
+<!--                    x-transition:enter-end="hy on" x-transition:leave="hq pu pr"-->
+<!--                    x-transition:leave-start="hy" x-transition:leave-end="hg" x-cloak="">-->
+<!--                  <li>-->
+<!--                    <a class="cc cn c_ pm ii fp fc cg" href="documentation.html" @focus="open = true"-->
+<!--                       @focusout="open = false">Documentation</a>-->
+<!--                  </li>-->
+<!--                  <li>-->
+<!--                    <a class="cc cn c_ pm ii fp fc cg" href="support.html" @focus="open = true"-->
+<!--                       @focusout="open = false">Support center</a>-->
+<!--                  </li>-->
+<!--                  <li>-->
+<!--                    <a class="cc cn c_ pm ii fp fc cg" href="404.html" @focus="open = true"-->
+<!--                       @focusout="open = false">404</a>-->
+<!--                  </li>-->
+<!--                </ul>-->
+<!--              </li>-->
             </ul>
 
             <!-- Desktop sign in links -->
             <ul class="ii sj ui ue un">
               <li>
-                <a class="cc c_ pm fc fd ii un hq pn po" href="signin.html">Sign in</a>
+                <a class="cc c_ pm fc fd ii un hq pn po" href="/login">Sign in</a>
               </li>
               <li>
-                <a class="r cq ao pf nm" href="signup.html">
+                <a class="r cq ao pf nm" href="/signup">
                   <span>Sign up</span>
                   <svg class="iz il ft cj s_ ng ny" viewBox="0 0 12 12"
                        xmlns="http://www.w3.org/2000/svg">
@@ -113,16 +119,16 @@
                  x-transition:leave-start="hy" x-transition:leave-end="hg" x-cloak="">
               <ul class="fc fp">
                 <li>
-                  <a class="ii c_ pm fp" href="pricing.html">Pricing</a>
+                  <a class="ii c_ pm fp" href="/pricing">Pricing</a>
                 </li>
                 <li>
-                  <a class="ii c_ pm fp" href="about.html">About us</a>
+                  <a class="ii c_ pm fp" href="/about">About us</a>
                 </li>
                 <li>
-                  <a class="ii c_ pm fp" href="tutorials.html">Tutorials</a>
+                  <a class="ii c_ pm fp" href="/tutorials">Tutorials</a>
                 </li>
                 <li>
-                  <a class="ii c_ pm fp" href="blog.html">Blog</a>
+                  <a class="ii c_ pm fp" href="/blog">Blog</a>
                 </li>
                 <li class="fp tq uq uz border-gray-200">
                   <span class="ii c_ pm fp">Resources</span>
@@ -139,10 +145,10 @@
                   </ul>
                 </li>
                 <li>
-                  <a class="ii cc ij c_ pm fp us" href="signin.html">Sign in</a>
+                  <a class="ii cc ij c_ pm fp us" href="/login">Sign In</a>
                 </li>
                 <li>
-                  <a class="r cq ao pf ij tq" href="signup.html">
+                  <a class="r cq ao pf ij tq" href="/signup">
                     <span>Sign up</span>
                     <svg class="iz il ft cj s_ ng ny" viewBox="0 0 12 12"
                          xmlns="http://www.w3.org/2000/svg">
@@ -249,19 +255,19 @@
             <h6 class="he cc nk">Company</h6>
             <ul class="cn">
               <li class="nk">
-                <a class="c_ pm hq pn po" href="#0">Home</a>
+                <a class="c_ pm hq pn po" href="/">Home</a>
               </li>
               <li class="nk">
-                <a class="c_ pm hq pn po" href="#0">About us</a>
+                <a class="c_ pm hq pn po" href="/about">About us</a>
               </li>
               <li class="nk">
                 <a class="c_ pm hq pn po" href="#0">Company values</a>
               </li>
               <li class="nk">
-                <a class="c_ pm hq pn po" href="#0">Pricing</a>
+                <a class="c_ pm hq pn po" href="/pricing">Pricing</a>
               </li>
               <li class="nk">
-                <a class="c_ pm hq pn po" href="#0">Privacy Policy</a>
+                <a class="c_ pm hq pn po" href="/privacy">Privacy Policy</a>
               </li>
             </ul>
           </div>
@@ -327,7 +333,7 @@
           </ul>
 
           <!-- Copyrights note -->
-          <div class="cn c_ np">© Cruip.com. All rights reserved.</div>
+          <div class="cn c_ np">© SimIWeb.com. All rights reserved.</div>
 
         </div>
 

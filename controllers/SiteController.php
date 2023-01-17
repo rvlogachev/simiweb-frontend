@@ -22,10 +22,10 @@ class SiteController extends Controller
         return [
             [
                 'class' => AccessControl::className(),
-                'only' => ['index', 'logout'],
+                'only' => ['logout'],
                 'rules' => [
                     [
-                        'actions' => ['index', 'logout'],
+                        'actions' => [ 'logout'],
                         'allow' => true,
                         'roles' => ['@']
                     ]
@@ -64,14 +64,39 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        return $this->inertia('Dashboard/Index');
+        return $this->inertia('Site/Index');
     }
 
-    public function actionVuejs()
+    public function actionPricing()
     {
-        return $this->render('vuejs');
+        return $this->inertia('Site/Pricing');
     }
 
+    public function actionAbout()
+    {
+        return $this->inertia('Site/About');
+    }
+
+    public function actionTutorials()
+    {
+        return $this->inertia('Site/Tutorials');
+    }
+    public function actionSupport()
+    {
+        return $this->inertia('Site/Support');
+    }
+    public function actionBlog()
+    {
+        return $this->inertia('Site/Blog');
+    }
+    public function actionSignup()
+    {
+        return $this->inertia('Site/Signup');
+    }
+    public function actionCourses()
+    {
+        return $this->inertia('Site/Courses');
+    }
     /**
      * Login action.
      *

@@ -105,7 +105,21 @@ $config = [
             'rules' => [
                 'login' => 'site/login',
                 'logout' => 'site/logout',
+
+                'index'=>'site/index',
+                'pricing'=>'site/pricing',
+                'about'=>'site/about',
+                'tutorials'=>'site/tutorials',
+                'blog'=>'site/blog',
+                'support'=>'site/support',
+                'signup'=>'site/signup',
+                'courses'=>'site/courses',
+
+
+
                 'accounts' => 'account/index',
+
+
                 'business-orgs-spr' =>'business-orgs-spr/index',
 
                 //Contacts

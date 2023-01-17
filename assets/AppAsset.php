@@ -39,6 +39,7 @@ class AppAsset extends AssetBundle
             $this->js[] = 'assets/inertia/js/main.js';
             $this->js[] = 'assets/inertia/js/app.min.js';
             $this->js[] = 'assets/inertia/js/custom.js';
+            $this->js[] = 'assets/pricing.js';
         }
     }
 
